@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jaen Figueroa">
+    <meta name="description" content="Portafolio web, donde muestro mis ulitmos proyectos, mis skills, redes socilaes, etc.">
+    <meta name="keywords" content="html, sass, javascript, portafolio, jaen figueroa, jaen, figueroa, @jaenfigueroa, @JaenDeveloper">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/icono1.png">
+    <title>Gonzalo Zanoni</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css?bbbcccb" />
+    <!-- JS -->
+    <script src="./src/redes_trabajos.js" defer></script>
+    <script src="./src/main.js" defer></script>
+    <!-- poppins font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <!-- AWESOME ICONS -->
+    
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" /> 
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body class="body over-hidden" id="body">
+    <!-- HEADER -->
+    <header class="header">
+      <!-- LOGO -->
+      <a href="https://jaenfigueroa.com/">
+        <h2 class="header__logo">gonzaloZanoni</h2>
+      </a>
+      <!-- NAV -->
+      <nav class="header__nav">
+        <!-- ICONO SANDWICH -->
+        <i class="fa-solid fa-bars nav__icono" id="icono-nav"></i>
+        <!-- CAJA DE LINKS -->
+        <ul class="nav__caja" id="contenedor-nav">
+          <a href="#seccion-home" class="item-nav selected"><li>Home</li></a>
+          <!-- <a href="#seccion-about" class="item-nav"><li>about</li></a> -->
+          <a href="#seccion-skills" class="item-nav"><li>Skills</li></a>
+          <a href="#seccion-projects" class="item-nav"><li>Proyectos</li></a>
+          <a href="#seccion-contact" class="item-nav"><li>Contacto</li></a>
+          <a href="./CV - WEB/index.html" target="_blank" class="item-nav selected1"><li><B>CV-ONLINE</B></li></a>
+        </ul>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="main" id="main">
+      <!-- seccion 1 - HOME-->
+      <section class="seccion1" id="seccion-home">
+        <article class="cajas">
+          <div class="caja1">
+            <p class="titulo" id="titulo"></p>
+            <p class="cargo" id="cargo"></p>
+          </div>
+          <div class="caja2">
+            <a href="./PDF/CV-GonzaloZanoni.pdf" target="_blank" download>
+              <button class="caja2__boton descargar-cv" id="boton-descargar-cv">
+                  <span>Descarga CV</span>&nbsp;
+                  <i class="bi bi-download" ></i>
+              </button>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5493573436057" target="_blank">
+            <button class="caja2__boton contact-ws" id="boton-contact">
+                <span>Contacto</span>&nbsp;
+                <i class="fa-brands fa-whatsapp"></i>
+              </button>
+            </a>
+          </div>
+        </article>
+        <div class="seccion1__imagen"></div>
+        <div class="contenedor-redes">
+          <ul>
+            <li>
+              <a href="https://github.com/gonzalozanoni" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/gonzalo-zanoni-324b6120b" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <!-- <li>
+              <a href="https://twitter.com/JaenFigueroa_" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li> -->
+            <li>
+              <a href="mailto:gonzalozanoni3@gmail.com" target="_blank">
+                <i class="fa-regular fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- seccion 2 - SKILLS-->
+      <section class="seccion2" id="seccion-skills">
+        <div class="caja">
+          <div class="caja__contenido">
+            <label class="titulo-skills">Skills</label>
+            <p>
+              Tengo buen dominio y uso de las siguientes tecnologías para la creación de páginas web.
+            </p>
+          </div>
+          <div class="caja__iconos caja-skills">
+            <div class="contenedor-iconos">
+              <i class="fa-brands fa-html5"></i>
+              <i class="fa-brands fa-css3-alt"></i>
+              <i class="fa-brands fa-js"></i>
+              <!-- <div class="icono-typescript"></div> -->
+              <i class="fa-brands fa-react"></i>
+              <!-- <i class="fa-brands fa-sass"></i> -->
+              <i class="fa-brands fa-bootstrap"></i>
+              <i class="fa-brands fa-node"></i>
+              <div class="icono-express"></div>
+              <!-- <div class="icono-mdb"></div> -->
+              <!-- <div class="icono-npm"></div> -->
+              <!-- <i class="fa-brands fa-git"></i> -->
+              <i class="fa-brands fa-github"></i>
+              <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+              <i class="devicon-csharp-plain"></i>
+              <!-- <i class="fa-brands fa-"></i> -->
+              <!-- <i class="fa-brands fa-figma"></i> -->
+              <!-- <i class="fa-brands fa-linux"></i> -->
+              <!-- <i class="bi bi-terminal"></i> -->
+              <!-- <i class="fa-brands fa-markdown"></i> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCION 3 - PROYECTOS-->
+      <section class="seccion3" id="seccion-projects">
+        <div class="caja1">
+          <h2 class="titulo-projects">Proyectos</h2>
+          <p class="subtitulo">Los últimos proyectos que realicé para poner en práctica los conocimientos adquiridos como desarrollador</p>
+        </div>
+        
+        <div class="seccion3__contenedor" id="contenedor-proyectos">
+          <!-- ////////////////////////////////// -->
+          <template id="template-proyecto">
+            <article class="proyecto" >
+              <div class="contenido">
+                <!-- contenedor datos -->
+                <div class="contenedor-datos">
+                  <span class="nombre"></span>
+                  <span class="fecha"></span>
+                  <p class="descripcion"></p>
+                </div>
+                <!-- contenedor botones -->
+                <div class="contenedor-botones">
+                  <a href="https://jaenfigueroa.github.io/eCommerce" target="_blank" class="link-website">
+                    <button>
+                      Website&nbsp;&nbsp;
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/jaenfigueroa/eCommerce" target="_blank" class="link-github">
+                    <button>
+                      Github&nbsp;&nbsp;
+                      <i class="fa-brands fa-github"></i>
+                    </button>
+                  </a>
+                </div>
+                <!-- ------------------- -->
+              </div>
+            </article>
+          </template>
+        </div>
+        <!-- ////////////////////////////////// -->
+        <div class="contenedor-more titulo-more-projects">
+          <a href="https://github.com/gonzalozanoni" target="_blank">
+            <span>Más proyectos&nbsp;&nbsp;</span>
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- SECCION 4 - CONTACT-->
+      <section class="seccion4" id="seccion-contact">
+        <!-- <h2>Contact</h2> -->
+        <div class="caja caja-contact">
+          <div class="contenido">
+            <p class="pregunta">¿Alguna idea?<br>
+            <span class="frase">Contáctame</span></p>
+
+              <a href="https://api.whatsapp.com/send?phone=5493573436057" target="_blank">
+                <button class="boton">
+                  Contacto&nbsp;&nbsp;
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <div class="fondo"></div>
+                </button>
+              </a>
+
+            <a class="correo" href="mailto:gonzalozanoni3@gmail.com" target="_blank">gonzalozanoni3@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <div class="contenedor-redes">
+        <ul>
+          <li>
+            <a href="https://github.com/gonzalozanoni" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/gonzalo-zanoni-324b6120b" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
+          <!-- <li>
+            <a href="https://twitter.com/JaenFigueroa_" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="mailto:gonzalozanoni3@gmail.com" target="_blank">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>Developed by <a href="https://github.com/gonzalozanoni" target="_blank">Gonzalo Zanoni</a> &#169 2023</p>
+    </footer>
+
+    <!-- PANTALLA DE CARGA -->
+    <div class="pantalla-de-carga" id="pantalla-de-carga">
+      <!-- pantalla de carga 2 -->
+      <div class="loadingio-spinner-double-ring-1wm8naw1smp">
+        <div class="ldio-p5sjjoa9rhk">
+        <div></div>
+        <div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+        </div></div>
+    </div>
+
+    <!-- FIN -->
+  </body>
+</html>
