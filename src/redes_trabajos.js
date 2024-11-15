@@ -10,15 +10,7 @@ const REDES_SOCIALES = {
 ///////////////////////////////////////////////////////////////////////
 
 const TRABAJOS = [
-  {
-    nombre: 'Puzzle Shuerk',
-    fecha: '28 - Oct - 2022',
-    descripcion:
-      'Game where you have to drag and drop to finish assembling the puzzle.',
-    website: 'https://jaenfigueroa.github.io/Rompecabezas/',
-    github: 'https://github.com/jaenfigueroa/Rompecabezas',
-    imagen: './assets/proyectos/puzzle_shuerk.png'
-  },
+  
   {
     nombre: 'Figuras Geométricas',
     fecha: '30 - Abr - 2023',
@@ -26,16 +18,25 @@ const TRABAJOS = [
     website: 'https://gonzalozanoni.github.io/FigurasGeom%C3%A9tricas/',
     github: 'https://github.com/GonzaloZanoni/GonzaloZanoni.github.io.git',
     imagen: './assets/proyectos/figurasGeometricas.jpg'
-  }
-  // {
-  //   nombre: 'Halloween Pumpkin',
-  //   fecha: '1 - Nov - 2022',
-  //   descripcion:
-  //     'A personal project for halloween, an animation using only html and css.',
-  //   website: 'https://jaenfigueroa.github.io/Halloween-Pumpkin/',
-  //   github: 'https://github.com/jaenfigueroa/Halloween-Pumpkin',
-  //   imagen: './assets/proyectos/halloween_pumpkin.png'
-  // },
+  },
+  {
+    nombre: 'Capitan Blog',
+    fecha: '28 - May - 2024',
+    descripcion:
+      'Blog para institución educativa, donde se postean eventos o actividades importantes.',
+    website: 'https://capitan-blog.onrender.com/',
+    github: 'https://github.com/GonzaloZanoni/mern-blog.git',
+    imagen: './assets/proyectos/Capitan-Blog.jpg'
+  },
+  {
+    nombre: 'Ipetify-music',
+    fecha: '30 - Oct - 2024',
+    descripcion:
+      'Reproductor de música para estudiantes.',
+    website: 'https://ipetify-music.onrender.com',
+    github: 'https://github.com/GonzaloZanoni/ipetify-music.git',
+    imagen: './assets/proyectos/Ipetify-Music.jpg'
+  },
   // {
   //   nombre: 'Cubo Rubik',
   //   fecha: '18 - Nov - 2022',
