@@ -10,15 +10,15 @@ const REDES_SOCIALES = {
 ///////////////////////////////////////////////////////////////////////
 
 const TRABAJOS = [
-  // {
-  //   nombre: 'Puzzle Shuerk',
-  //   fecha: '28 - Oct - 2022',
-  //   descripcion:
-  //     'Game where you have to drag and drop to finish assembling the puzzle.',
-  //   website: 'https://jaenfigueroa.github.io/Rompecabezas/',
-  //   github: 'https://github.com/jaenfigueroa/Rompecabezas',
-  //   imagen: './assets/proyectos/puzzle_shuerk.png'
-  // },
+  {
+    nombre: 'Puzzle Shuerk',
+    fecha: '28 - Oct - 2022',
+    descripcion:
+      'Game where you have to drag and drop to finish assembling the puzzle.',
+    website: 'https://jaenfigueroa.github.io/Rompecabezas/',
+    github: 'https://github.com/jaenfigueroa/Rompecabezas',
+    imagen: './assets/proyectos/puzzle_shuerk.png'
+  },
   {
     nombre: 'Figuras Geométricas',
     fecha: '30 - Abr - 2023',
