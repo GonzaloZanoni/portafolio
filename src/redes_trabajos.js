@@ -11,14 +11,14 @@ const REDES_SOCIALES = {
 
 const TRABAJOS = [
   
-  {
-    nombre: 'Figuras Geométricas',
-    fecha: '30 - Abr - 2023',
-    descripcion: 'Juego drag and drop con figuras geométricas',
-    website: 'https://gonzalozanoni.github.io/FigurasGeom%C3%A9tricas/',
-    github: 'https://github.com/GonzaloZanoni/GonzaloZanoni.github.io.git',
-    imagen: './assets/proyectos/figurasGeometricas.jpg'
-  },
+  // {
+  //   nombre: 'Figuras Geométricas',
+  //   fecha: '30 - Abr - 2023',
+  //   descripcion: 'Juego drag and drop con figuras geométricas',
+  //   website: 'https://gonzalozanoni.github.io/FigurasGeom%C3%A9tricas/',
+  //   github: 'https://github.com/GonzaloZanoni/GonzaloZanoni.github.io.git',
+  //   imagen: './assets/proyectos/figurasGeometricas.jpg'
+  // },
   {
     nombre: 'Capitan Blog',
     fecha: '28 - May - 2024',
